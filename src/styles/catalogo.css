@@ -37,10 +37,11 @@
 }
 
 .card {
-  flex: 0 0 250px;
+  flex: 0 0 240px;
+  cursor: pointer;
   background: #0e0e0e;
   border-radius: 20px;
-  padding: 1.5rem;
+  padding: 1.9rem;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -170,7 +171,7 @@
   }
 
   .banner-wrapper {
-    width: 90%;
+    width: 100%;
   }
 
   .banner-carrossel img {
