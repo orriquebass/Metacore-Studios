@@ -1,0 +1,179 @@
+#catalogo {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: #1b1b1b;
+}
+
+.catalogo-titulo {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  text-shadow:
+    0 0 2px #00e0ff,
+    0 0 10px #00e0ff,
+    0 0 24px #00e0ff;
+}
+
+.catalogo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+  margin-top: 60px;
+}
+
+.carrossel-wrapper {
+  width: 850px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cards {
+  display: flex;
+  gap: 2rem;
+  transition: transform 0.4s ease-in-out;
+}
+
+.card {
+  flex: 0 0 250px;
+  background: #0e0e0e;
+  border-radius: 20px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.card .preco {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--cor-primaria);
+  margin-top: 0.3rem;
+}
+
+.card .preco-promocao {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--cor-secundaria);
+  margin-top: 0.3rem;
+}
+
+.seta {
+  background: var(--gradiente-principal);
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 10;
+}
+
+.seta:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 20px rgba(0, 224, 255, 0.7);
+}
+
+.seta-esquerda {
+  left: -10px;
+}
+
+.seta-direita {
+  right: -10px;
+}
+
+.banner-promocional {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.banner-wrapper {
+  width: 750px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.banner-carrossel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.banner-carrossel img {
+  width: 750px;
+  flex-shrink: 0;
+  border-radius: 20px;
+}
+
+.banner-promocional .seta {
+  width: 45px;
+  height: 45px;
+  font-size: 1.3rem;
+}
+
+.indicadores {
+  display: flex;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-top: 1rem;
+}
+
+.indicador {
+  width: 15px;
+  height: 15px;
+  background: #555;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.indicador.ativo,
+.indicador:hover {
+  background: var(--cor-primaria);
+}
+
+.indicador.ativo {
+  transform: scale(1.2);
+}
+
+@media (max-width: 1024px) {
+  .carrossel-wrapper {
+    width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carrossel-wrapper {
+    width: 280px;
+  }
+
+  .banner-wrapper {
+    width: 90%;
+  }
+
+  .banner-carrossel img {
+    width: 100%;
+  }
+}

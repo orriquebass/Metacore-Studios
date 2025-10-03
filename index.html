@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="src/styles/styles.css" />
+  <link rel="stylesheet" href="src/styles/header.css" />
+  <link rel="stylesheet" href="src/styles/home.css" />
+  <link rel="stylesheet" href="src/styles/catalogo.css" />
+  <link rel="stylesheet" href="src/styles/sobre-mim.css" />
+  <link rel="stylesheet" href="src/styles/contato.css" />
+  <link rel="stylesheet" href="src/styles/footer.css" />
+  <link rel="stylesheet" href="src/styles/modal.css" />
+  <title>MetaCore Studios</title>
+</head>
+
+<body>
+  <header>
+    <nav id="nav_barra">
+      <img src="src/imagens/logo-metacore.png" class="nav_logo" alt="Logo MetaCore Studios" />
+      <ul id="nav_lista">
+        <li class="nav-item active"><a href="#home">Início</a></li>
+        <li class="nav-item"><a href="#catalogo">Catálogo</a></li>
+        <li class="nav-item"><a href="#sobre-mim">Sobre mim</a></li>
+        <li class="nav-item"><a href="#contato">Contato</a></li>
+      </ul>
+      <button id="mobile_botao"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+
+    <div id="mobile_menu">
+      <ul id="mobile_nav_lista">
+        <li class="nav-item"><a href="#home">Início</a></li>
+        <li class="nav-item"><a href="#catalogo">Catálogo</a></li>
+        <li class="nav-item"><a href="#sobre-mim">Sobre mim</a></li>
+        <li class="nav-item"><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="content">
+    <section id="home">
+      <div class="home-conteudo">
+        <h1 class="home-titulo">Colecione o Futuro, <span>Hoje</span></h1>
+        <p class="home-descricao">
+          Explore NFTs únicos criados com tecnologia de ponta e design inspirado no amanhã.
+        </p>
+        <a href="#" class="botao-home">Ver minha coleção</a>
+      </div>
+    </section>
+
+    <section id="catalogo">
+
+      <h2 class="catalogo-titulo">Catálogo</h2>
+
+      <div class="banner-promocional">
+        <button class="seta seta-esquerda"><i class="fa-solid fa-chevron-left"></i></button>
+
+        <div class="banner-wrapper">
+          <div class="banner-carrossel">
+            <img src="src/imagens/banner-carrosel-gato.jpg" alt="Desconto Exclusivo!" />
+            <img src="src/imagens/banner-carrosel-lobo.jpg" alt="Oferta Imperdível!" />
+            <img src="src/imagens/banner-carrosel-urso.jpg" alt="Promoção Especial!" />
+          </div>
+        </div>
+
+        <button class="seta seta-direita"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+
+      <div class="indicadores">
+        <span class="indicador ativo"></span>
+        <span class="indicador"></span>
+        <span class="indicador"></span>
+      </div>
+
+      <div class="catalogo-container">
+        <button class="seta seta-esquerda" id="seta-esquerda">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <div class="carrossel-wrapper">
+          <div class="cards" id="carrossel">
+            <div class="card">
+              <img src="src/imagens/nft-gato.jpg" alt="Neonpurr - Guardião das Sombras" />
+              <h3>Neonpurr - Guardião das Sombras</h3>
+              <p style="text-decoration: line-through;" class="preco">2.3 ETH</p>
+              <p class="preco-promocao">1.8 ETH</p>
+            </div>
+            <div class="card">
+              <img src="src/imagens/nft-lobo.jpg" alt="Lunawolf - A Sentinela das Estrelas" />
+              <h3>Lunawolf - Sentinela das Estrelas</h3>
+              <p style="text-decoration: line-through;" class="preco">2.9 ETH</p>
+              <p class="preco-promocao">2.6 ETH</p>
+            </div>
+            <div class="card">
+              <img src="src/imagens/nft-urso.jpg" alt="Gravok - Guardião do Núcleo" />
+              <h3>Gravok - Guardião do Núcleo</h3>
+              <p style="text-decoration: line-through;" class="preco">3.0 ETH</p>
+              <p class="preco-promocao">2.3 ETH</p>
+            </div>
+            <div class="card">
+              <img src="src/imagens/nft-aguia.jpg" alt="Aetheris - Guardião dos Ventos" />
+              <h3>Aetheris - Guardião dos Ventos</h3>
+              <p class="preco">2.8 ETH</p>
+            </div>
+            <div class="card">
+              <img src="src/imagens/nft-coelho.jpg" alt="Nyxbyte - O Mensageiro Veloz" />
+              <h3>Nyxbyte - O Mensageiro Veloz</h3>
+              <p class="preco">2.1 ETH</p>
+            </div>
+            <div class="card">
+              <img src="src/imagens/nft-coruja.jpg" alt="Oculus Prime - O Vigilante Noturno" />
+              <h3>Oculus Prime - O Vigilante Noturno</h3>
+              <p class="preco">2.5 ETH</p>
+            </div>
+            <div class="card">
+              <img src="src/imagens/nft-dragao.jpg" alt="Dravonix - Senhor dos Portais" />
+              <h3>Dravonix - Senhor dos Portais</h3>
+              <p class="preco">4.7 ETH</p>
+            </div>
+            <div class="card">
+              <img src="src/imagens/nft-gorila.jpg" alt="Kronox - O Colosso Primordial" />
+              <h3>Kronox - O Colosso Primordial</h3>
+              <p class="preco">3.2 ETH</p>
+            </div>
+            <div class="card">
+              <img src="src/imagens/nft-leao.jpg" alt="Valyron - Rei dos Circuitos" />
+              <h3>Valyron - Rei dos Circuitos</h3>
+              <p class="preco">3.8 ETH</p>
+            </div>
+            <div class="card">
+              <img src="src/imagens/nft-macaco.jpg" alt="Bytechimp - Engenheiro do Caos" />
+              <h3>Bytechimp - Engenheiro do Caos</h3>
+              <p class="preco">2.4 ETH</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="seta seta-direita" id="seta-direita">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+
+
+    </section>
+
+    <section id="sobre-mim">
+      <h2 class="section-titulo">Sobre mim</h2>
+      <div class="sobre-container">
+        <div class="sobre-imagem">
+          <img src="src/imagens/minha-foto.jpg" alt="Foto do artista" />
+        </div>
+        <div class="sobre-texto">
+          <p>
+            Sou Matheus Orrico, um artista digital apaixonado por transformar visões futuristas em obras únicas e
+            imersivas. Minha arte nasce da fusão entre luzes de neon, estética cyberpunk e a vibrante energia do
+            universo das criptomoedas, criando composições que não apenas encantam os olhos, mas também provocam a
+            imaginação.
+          </p>
+          <p>
+            Ao colecionar minhas criações, você não está apenas adquirindo uma peça digital: está se conectando a uma
+            nova forma de expressão artística que redefine o conceito de valor, autenticidade e exclusividade no mundo
+            digital.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2 class="contato-titulo">Contato</h2>
+      <h3 class="contato-subtitulo">Fale diretamente com o criador.</h3>
+      <div class="contato-container">
+        <img src="src/imagens/banner-contato.png" class="banner_contato" alt="Dragão futurista" />
+        <form id="form-contato">
+          <div class="form-group">
+            <input type="tel" id="telefone" name="telefone" placeholder="Telefone" />
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Email" />
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <button type="submit" class="botao-default">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <p>© 2025 MetaCore Studios</p>
+      <div class="social-icons">
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        <div class="divider"></div>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <div class="divider"></div>
+        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="modal-colecao" class="modal">
+    <div class="modal-conteudo">
+      <span class="modal-fechar">&times;</span>
+      <h2>Minha Coleção</h2>
+      <div class="colecao-container"></div>
+    </div>
+  </div>
+
+  <div id="modal-produto" class="modal">
+    <div class="modal-conteudo">
+      <span class="modal-fechar">&times;</span>
+      <div class="produto-detalhes">
+        <img id="detalhe-imagem" src="" alt="" />
+        <h3 id="detalhe-nome"></h3>
+        <p id="detalhe-preco"></p>
+        <p id="detalhe-preco-promocao"></p>
+        <p id="detalhe-descricao">Descrição completa do NFT aparecerá aqui.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="src/javascript/script.js"></script>
+</body>
+
+</html>

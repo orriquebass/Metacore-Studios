@@ -1,0 +1,163 @@
+#contato {
+  width: 100%;
+  background: #1b1b1b;
+  padding: 8rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contato-titulo {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  text-shadow:
+    0 0 2px #00e0ff,
+    0 0 10px #00e0ff,
+    0 0 24px #00e0ff;
+}
+
+.contato-subtitulo {
+  font-size: 2.2rem;
+  color: #ccc;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 5rem;
+  font-style: italic;
+}
+
+.contato-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.banner_contato {
+  width: 550px;
+  max-width: 100%;
+  user-select: none;
+  pointer-events: none;
+}
+
+#form-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 600px;
+  width: 100%;
+}
+
+.form-group {
+  position: relative;
+  width: 100%;
+}
+
+#form-contato input {
+  width: 100%;
+  padding: 1.2rem;
+  background: #03030a;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  color: #fff;
+  padding-right: 3.5rem;
+  transition: box-shadow 0.3s ease;
+}
+
+#form-contato input::placeholder {
+  color: #6f6f6f;
+}
+
+#form-contato input:focus {
+  outline: none;
+  box-shadow: 0 0 15px rgba(0, 224, 255, 0.4);
+}
+
+.form-group i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 1.4rem;
+  background: var(--gradiente-principal);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 1024px) {
+  .contato-container {
+    gap: 3rem;
+    padding: 0 2rem;
+  }
+
+  .banner_contato {
+    width: 420px;
+  }
+
+  #form-contato {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  #contato {
+    padding: 5rem 1.5rem;
+  }
+
+  .contato-titulo {
+    font-size: 2rem;
+  }
+
+  .contato-subtitulo {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+  }
+
+  .contato-container {
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .banner_contato {
+    width: 300px;
+  }
+
+  #form-contato {
+    max-width: 100%;
+  }
+
+  #form-contato .botao-default {
+    align-self: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contato-titulo {
+    font-size: 1.8rem;
+  }
+
+  .contato-subtitulo {
+    font-size: 1.4rem;
+  }
+
+  .banner_contato {
+    width: 240px;
+  }
+
+  #form-contato input {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .form-group i {
+    font-size: 1.2rem;
+  }
+}
