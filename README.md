@@ -52,19 +52,23 @@ Este projeto foi construído com tecnologias essenciais para o desenvolvimento w
 
 ### 🏠 Home  
 Uma introdução elegante e envolvente ao universo da Metacore Studios, com foco em identidade visual e impacto estético.
-![Home](./home.png)
+<img width="1911" height="904" alt="Captura de tela 2025-10-03 215857" src="https://github.com/user-attachments/assets/21c754df-0ec2-40d6-a24e-e7a006e8dd4d" />
+
 
 ### 🖼️ Carrossel de Imagens  
 Apresentação dinâmica das coleções disponíveis, com destaque visual e navegação fluida entre os itens.
-![Carrossel](./carrossel.png)
+<img width="1919" height="776" alt="Captura de tela 2025-10-03 215914" src="https://github.com/user-attachments/assets/75e45bf5-3510-4651-a105-3545934b7168" />
+
 
 ### 🧬 Sobre Mim
 Seção dedicada a explicar a proposta e a identidade da Metacore Studios, transmitindo a essência por trás da plataforma.
-![Sobre](./sobre.png)
+<img width="1886" height="719" alt="Captura de tela 2025-10-03 215958" src="https://github.com/user-attachments/assets/f1606c8a-9372-4e89-b0b8-1be5fb4825d9" />
+
 
 ### 📬 Contato   
 Um espaço simples e funcional para que os visitantes possam entrar em contato e se manter atualizados sobre novidades.
-![Contato](./contato.png)
+<img width="1915" height="784" alt="Captura de tela 2025-10-03 220006" src="https://github.com/user-attachments/assets/43d64f61-4aaf-402b-b34b-a4ef65f0b77a" />
+
 
 💡 As imagens acima representam a versão atual do projeto e auxiliam na visualização da sua estrutura e principais seções.
 
