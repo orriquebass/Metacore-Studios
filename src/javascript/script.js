@@ -50,7 +50,6 @@ window.addEventListener("resize", () => {
   carrossel.style.transform = `translateX(0)`;
 });
 
-// =================== BANNER PROMOCIONAL ===================
 const bannerCarrossel = document.querySelector(".banner-carrossel");
 const bannerImgs = document.querySelectorAll(".banner-carrossel img");
 const btnBannerEsq = document.querySelector(".banner-promocional .seta-esquerda");
@@ -109,7 +108,7 @@ document.querySelector(".banner-promocional")?.addEventListener("mouseleave", ()
 
 window.addEventListener("resize", atualizarBanner);
 
-// =================== NAVBAR SCROLL ===================
+
 const navItems = document.querySelectorAll("#nav_lista .nav-item a");
 const sections = document.querySelectorAll("main section");
 
@@ -142,7 +141,7 @@ const observer = new IntersectionObserver(
 
 sections.forEach((section) => observer.observe(section));
 
-// =================== MODAL COLEÇÃO ===================
+
 const modalColecao = document.getElementById("modal-colecao");
 const colecaoContainer = modalColecao?.querySelector(".colecao-container");
 const botaoVerColecao = document.querySelector(".botao-home");
@@ -158,7 +157,7 @@ if (botaoVerColecao) {
   });
 }
 
-// =================== MODAL PRODUTO ===================
+
 const modalProduto = document.getElementById("modal-produto");
 const detalheImagem = document.getElementById("detalhe-imagem");
 const detalheNome = document.getElementById("detalhe-nome");
@@ -226,7 +225,7 @@ document.querySelectorAll("#carrossel .card").forEach((card) => {
   });
 });
 
-// =================== FECHAR MODAIS ===================
+
 document.querySelectorAll(".modal-fechar").forEach((btn) => {
   btn.addEventListener("click", () => {
     modalColecao.style.display = "none";
